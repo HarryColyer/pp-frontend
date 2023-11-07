@@ -35,7 +35,7 @@ function Contact() {
       }
     }
     axios
-      .post("http://193.203.191.16:3000/api/contact", state)
+      .post("https://193.203.191.16:3000/api/contact", state)
       .then((response) => {
         setFormSent(response.data.success) // You can handle the response as needed
         // Optionally, show a success message to the user or clear the form fields
